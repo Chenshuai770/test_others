@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cs.test_others.MainActivity">
+
+    <Button
+        android:id="@+id/btn_main1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="图片加载神器1" />
+    <ImageView
+        android:id="@+id/iv_main1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/btn_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="图片加载神器2" />
+    <ImageView
+        android:id="@+id/iv_main2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>
